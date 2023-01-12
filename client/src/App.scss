@@ -1,0 +1,23 @@
+@import "../src/pages/auth/login/Login.scss";
+@import "../src/pages/auth/register/Register.scss";
+@import "../src/pages/calculator/Calculator.scss";
+@import "https://fonts.googleapis.com/css?family=Poppins";
+
+html {
+  /* background by SVGBackgrounds.com */
+  background-image: url("~/src/assets/bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: "Poppins";
+}
+
+.MuiButton-root {
+  text-transform: none;
+  font-family: "Poppins";
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

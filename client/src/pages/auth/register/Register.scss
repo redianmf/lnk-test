@@ -1,0 +1,48 @@
+.container_auth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  & .container_form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5em;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.205);
+    color: #fff;
+    backdrop-filter: saturate(180%) blur(5px);
+    border-radius: 5px;
+    width: 35vw;
+
+    & input {
+      color: #fff;
+    }
+
+    & .btn_submit_auth {
+      background-color: #fff;
+      font-weight: 600;
+      color: #330033;
+    }
+
+    & h5 {
+      font-weight: 400;
+    }
+
+    & .MuiOutlinedInput-root {
+      & fieldset {
+        border: 1px solid #fff;
+      }
+    }
+
+    & .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+      border: 1px solid #ffffff;
+    }
+
+    &
+      .MuiFormLabel-root.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated.MuiInputLabel-outlined.MuiFormLabel-colorPrimary.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated.MuiInputLabel-outlined {
+      color: #fff;
+    }
+  }
+}
