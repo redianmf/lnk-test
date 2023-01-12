@@ -2,6 +2,8 @@
 
 # DEV
 
+Create db name "lnk" on localhost
+
 ```bash
 cd client
 npm install
