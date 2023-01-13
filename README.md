@@ -14,6 +14,10 @@ cp .env.example .env
 npm install
 npm start
 
+cd admin-laravel
+composer install
+php artisan serve
+
 ```
 
 # FLOW
