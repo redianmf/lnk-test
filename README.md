@@ -15,6 +15,7 @@ npm install
 npm start
 
 cd admin-laravel
+cp .env.example .env
 composer install
 php artisan serve
 
